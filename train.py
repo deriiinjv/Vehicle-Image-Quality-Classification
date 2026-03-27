@@ -49,7 +49,7 @@ for epoch in range(epochs):
     train_loss /= len(train_loader)
     
     
-#val    
+   
     model.eval()
     val_loss = 0
     with torch.no_grad():
